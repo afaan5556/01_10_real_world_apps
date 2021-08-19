@@ -1,4 +1,4 @@
-Street,City,State/Province,Country,Code,Years,Total Years
+street,city,state,country,code,years_lived,total_years_lived
 "Street 48, F-8/4",Islamabad,Islamabad Capital Territory,Pakistan,0,1982 - 1983,1
 "46/1, Lane 20, DHA",Karachi,Sindh,Pakistan,75500,"1983 - 2001, 2005 - 2006",19
 3450 Rue Hutchison,Montreal,Quebec,Canada,H2X 2G6,2001 - 2002,1
