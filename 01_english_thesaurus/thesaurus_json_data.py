@@ -6,10 +6,20 @@ import json
 
 
 def read_json_data(full_data_path):
+    '''
+    full_data_path: The path to the json data file
+    return: The json object of english dictionary data
+    '''
     return json.load(open(full_data_path))
 
 
 def get_response(english_thesaurus_data, close_match_cutoff, close_match_count):
+    '''
+    english_thesaurus_data: The json object of english dictionary data
+    close_match_cutoff: The value at which to cut-off match determined as close
+    close_match_count: The number of close matches to use
+    return: Either the exact match, close match, or appropriate error message
+    '''
     userInput = input('Enter word: ')
     userLowerInput = userInput.lower()
     # Case 1: Lower case match found

@@ -6,6 +6,13 @@ import logging
 
 
 def query_db(user_name, password, host, data_base):
+    '''
+    user_name: The username for the DB
+    password: The password for the DB
+    host: The host name for the DB
+    data_base: The DB name
+    return: The queried results
+    '''
     userInput = input('Enter word: ')
     userLowerInput = userInput.lower()
     con = mysql.connector.connect(

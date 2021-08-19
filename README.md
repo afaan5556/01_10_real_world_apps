@@ -11,6 +11,9 @@ The `thesaurus_json_data.py` version has some additional features such as:
 - Prompting the user to confirm if that is what was meant
 - Looping through close match options till one is confirmed, or all are exhasted
 
+## 02 Map
+This project builds an interactive map using the Folium library with location pins read from a csv.
+
 Both versions handle differences in word capitalization by converting the user input into lowercase
 
 ## 99 General
