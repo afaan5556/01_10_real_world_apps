@@ -7,6 +7,7 @@ import json
 
 def read_json_data(full_data_path):
     '''
+    Read json data and return object
     full_data_path: The path to the json data file
     return: The json object of english dictionary data
     '''
@@ -15,6 +16,8 @@ def read_json_data(full_data_path):
 
 def get_response(english_thesaurus_data, close_match_cutoff, close_match_count):
     '''
+    Get user input and check json data for an exact or close match
+    Send responses, user prompts, or error messages accordingly
     english_thesaurus_data: The json object of english dictionary data
     close_match_cutoff: The value at which to cut-off match determined as close
     close_match_count: The number of close matches to use

@@ -7,6 +7,7 @@ import logging
 
 def query_db(user_name, password, host, data_base):
     '''
+    Connect to a remote db, query data, and return results
     user_name: The username for the DB
     password: The password for the DB
     host: The host name for the DB
