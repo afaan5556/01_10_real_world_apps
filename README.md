@@ -17,7 +17,7 @@ To run directly in shell:
 - `python thesaurus_json_data.py`
 - `python thesaurus_db_data.py`
 
-## 02 Map
+## 02 Locations Map Builder
 This project builds an interactive map using the Folium library with location pins read from a csv.
 
 
