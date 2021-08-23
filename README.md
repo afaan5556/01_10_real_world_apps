@@ -46,4 +46,11 @@ To run directly in shell:
 - Place csv file of locations in `data` folder
 - Run `python locations_map_builder.py`
 
+
+## 03 JustPy Web App
+Simple data viz html pages built using the JustPy and HighCharts frameworks.
+
+The Highcharts spline chart type is used, but any other type from the library can be similarly be used as starting JS code and added to a website
+
+
 ## 99 General
