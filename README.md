@@ -52,5 +52,12 @@ Simple data viz html pages built using the JustPy and HighCharts frameworks.
 
 The Highcharts spline chart type is used, but any other type from the library can be similarly be used as starting JS code and added to a website
 
+#### List Comprehension Tip
+Tip for nested list comprehension to inject multipl dataframe series into the HighChart object series attribute:
+
+```
+data = [{"name:v1", "data":[v2 for v2 in v1]} for v1 in df.columns]
+```
+
 
 ## 99 General
