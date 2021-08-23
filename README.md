@@ -56,7 +56,7 @@ The Highcharts spline chart type is used, but any other type from the library ca
 Tip for nested list comprehension to inject multipl dataframe series into the HighChart object series attribute:
 
 ```
-data = [{"name:v1", "data":[v2 for v2 in v1]} for v1 in df.columns]
+data = [{"name":v1, "data":[v2 for v2 in list(df[v1])]} for v1 in df.columns]
 ```
 
 
