@@ -59,5 +59,8 @@ Tip for nested list comprehension to inject multipl dataframe series into the Hi
 data = [{"name":v1, "data":[v2 for v2 in list(df[v1])]} for v1 in df.columns]
 ```
 
+## 04 Flask Website
+Basic website creation (using Python and Flask) and deployment (Heroku)
+
 
 ## 99 General
