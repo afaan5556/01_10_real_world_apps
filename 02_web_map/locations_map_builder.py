@@ -64,7 +64,8 @@ def build_folium_map(map_start_lat, map_start_lon, map_start_zoom):
     map_start_zoom: Map start zoom
     return: The base folium map object
     '''
-    tiles_style = choice(['OpenStreetMap', 'Stamen Terrain', 'Stamen Toner', 'CartoDB positron', 'CartoDB dark_matter'])
+    # tiles_style = choice(['OpenStreetMap', 'Stamen Terrain', 'Stamen Toner', 'CartoDB positron', 'CartoDB dark_matter'])
+    tiles_style = 'CartoDB positron'
     locationMap = folium.Map(location=[map_start_lat, map_start_lon], zoom_start=map_start_zoom, tiles=tiles_style)
 
     return locationMap
